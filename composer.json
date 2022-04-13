@@ -1,0 +1,16 @@
+{
+  "name": "kreativabyran/kb-wpcs",
+  "description": "Kreativa Byrån's WordPress Coding Standards",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "oskar",
+      "email": "oskar@kreativabyran.se"
+    }
+  ],
+  "require-dev": {
+    "squizlabs/php_codesniffer": "^3.6",
+    "wp-coding-standards/wpcs": "^2.3"
+  }
+}

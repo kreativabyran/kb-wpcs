@@ -1,0 +1,23 @@
+# Lando
+wordpress/
+
+# IDEs
+*.sublime-workspace
+*.sublime-project
+sftp-config.json
+*.code-workspace
+.vscode/tasks.json
+.idea/
+
+# Mac files
+.DS_Store
+
+# Composer
+vendor/
+
+# ssh
+*rsa
+*.ppk
+
+# Archives
+*.zip

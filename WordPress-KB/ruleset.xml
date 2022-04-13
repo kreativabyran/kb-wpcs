@@ -16,9 +16,7 @@
 	<exclude-pattern>*.min.js</exclude-pattern>
 
 	<!-- Include the WordPress-Extra standard. -->
-	<rule ref="WordPress-Extra"/>
-
-	<rule ref="WordPress">
+	<rule ref="WordPress-Extra">
 		<!-- PSR4 -->
 		<exclude name="WordPress.Files.FileName.InvalidClassFileName"/>
 		<exclude name="WordPress.Files.FileName.NotHyphenatedLowercase"/>

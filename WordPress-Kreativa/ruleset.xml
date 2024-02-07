@@ -1,19 +1,7 @@
 <?xml version="1.0"?>
-<ruleset name="WordPress-KB">
+<ruleset name="WordPress-Kreativa">
 
-	<description>Kreativa Byrån's Custom Ruleset for WordPress</description>
-
-	<!-- Exclude WP Core folders and files from being checked. -->
-	<exclude-pattern>/docroot/wordpress/*</exclude-pattern>
-
-	<!-- Exclude the Composer Vendor directory. -->
-	<exclude-pattern>/vendor/*</exclude-pattern>
-
-	<!-- Exclude the Node Modules directory. -->
-	<exclude-pattern>/node_modules/*</exclude-pattern>
-
-	<!-- Exclude minified Javascript files. -->
-	<exclude-pattern>*.min.js</exclude-pattern>
+	<description>Kreativa's Custom Ruleset for WordPress</description>
 
 	<!-- Include the WordPress-Extra standard. -->
 	<rule ref="WordPress-Extra">
@@ -24,6 +12,18 @@
 
 	<!-- Let's also check that everything is properly documented. -->
 	<rule ref="WordPress-Docs"/>
+
+	<!-- Exclude WP Core folders and files from being checked. -->
+	<exclude-pattern>*/wordpress/*</exclude-pattern>
+
+	<!-- Exclude the Composer Vendor directory. -->
+	<exclude-pattern>/vendor/*</exclude-pattern>
+
+	<!-- Exclude the Node Modules directory. -->
+	<exclude-pattern>/node_modules/*</exclude-pattern>
+
+	<!-- Exclude minified Javascript files. -->
+	<exclude-pattern>*.min.js</exclude-pattern>
 
 
 	<!--
